@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a RESTful API built with FastAPI for managing a book collection. It provides comprehensive CRUD (Create, Read, Update, Delete) operations.
+This project is a RESTful API by codename built with FastAPI for managing a book collection. It provides comprehensive CRUD (Create, Read, Update, Delete) operations.
 
 ## Setup Procedure
 
@@ -17,7 +17,7 @@ This project is a RESTful API built with FastAPI for managing a book collection.
    cd fastapi-book-project
    ```
 
-2. Create a virtual environment (optional but recommended):
+2. Create a virtual environment (recommended in order to avoid conflicts):
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
@@ -30,7 +30,7 @@ This project is a RESTful API built with FastAPI for managing a book collection.
 
 4. Run the application:
    ```bash
-   uvicorn main:app --reload
+   uvicorn main:app 
    ```
 
 5. Access the API at `http://127.0.0.1:8000/api/v1/books/`
